@@ -28,3 +28,4 @@ autoload -U compinit && compinit
 # /usr/share/zsh/site-functions/_*
 
 for file in /etc/zsh/*.zsh; do source $file; done
+unset file
